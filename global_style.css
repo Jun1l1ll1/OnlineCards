@@ -1,0 +1,65 @@
+
+:root {
+    --primary-color: #b63434;
+    --bg-color: #2F2F2F;
+    --element-color: #242424;
+    --element-color-dark: #1A1A1A;
+    --secluded-color: #ffffff36;
+}
+
+
+body, html {
+    background-color: var(--element-color-dark);
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    * {
+        color: white;
+    }
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    width: fit-content;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+input {
+    background-color: var(--secluded-color);
+    border: none;
+}
+
+
+/* Ingen scrolling skal skje, så den tar bare opp plass (og lager scrolling...) */
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.br_20 {
+    border-radius: 20px;
+}
+
+.mt_30 {
+    margin-top: 30px;
+}
+
+
+/* Liten skjerm kommer senere */
+@media screen and (max-width: 900px) {
+    /*TODO Legg inn en varsel om at liten skjerm ikke er tilgjengelig enda */
+}

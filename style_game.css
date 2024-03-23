@@ -1,0 +1,61 @@
+.full_grid {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto 300px;
+    place-items: center;
+}
+
+
+.gameplay_cont {
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--bg-color);
+}
+
+
+.players_cont {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_info_txt {
+    color: var(--secluded-color);
+    font-size: 1.2rem;
+}
+
+.become_player {
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    /* box-shadow: 0px 0px 15px 0px white; */
+}
+
+.add_bot {
+    width: 100%;
+    
+    button {
+        float: right;
+        margin-right: 30px;
+        padding: 0px;
+        background-color: #0000;
+    }
+}
+
+.playerbox_cont {
+    width: calc(100% - 10px*2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .playerbox {
+        background-color: red; 
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
