@@ -4,7 +4,7 @@
     --bg-color: #2F2F2F;
     --element-color: #242424;
     --element-color-dark: #1A1A1A;
-    --secluded-color: #ffffff36;
+    --secluded-color: #ffffff41;
 }
 
 
@@ -30,6 +30,9 @@ button {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+button:active {
+    filter: brightness(75%);
 }
 
 input {

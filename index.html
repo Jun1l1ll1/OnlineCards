@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,12 +11,14 @@
     <div class="full_grid">
         <div class="center">
             <div class="game_cont">
+                <input class="name_inp br_20" type="text" name="name_inp" id="name_inp" placeholder="Ditt navn" />
+
                 <div>
                     <button onclick="join_game()" class="br_20">BLI MED</button>
-                    <input class="br_20" id="join_inp" minlength="6" maxlength="6" type="text" placeholder="1N63N2"/>
+                    <input class="br_20" name="join_inp" id="join_inp" minlength="6" maxlength="6" type="text" placeholder="1N63N2" />
                 </div>
     
-                <button onclick="create_game()" class="br_20 create_game">LAG SPILL</button>
+                <button onclick="create_game()" class="br_20 create_game mt_30">LAG SPILL</button>
             </div>
         </div>
 

@@ -6,6 +6,11 @@
     place-items: center;
 }
 
+.name_inp {
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+}
+
 .game_cont {
     height: 100%;
     width: 100%;
@@ -16,8 +21,6 @@
 
     div * {
         font-size: 2.5rem;
-
-        margin-bottom: 100px;
     }
     input {
         padding: 10px;
