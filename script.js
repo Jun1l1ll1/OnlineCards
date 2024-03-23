@@ -43,7 +43,7 @@ function create_playerboxes() {
 
         container_html.innerHTML += `
         <div class="playerbox br_20">
-            <button>...</button>
+            <button class="icon">...</button>
             <div class="shown_cards">
 
             </div>

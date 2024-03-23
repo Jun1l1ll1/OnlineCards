@@ -9,10 +9,43 @@
 </head>
 <body>
     <div class="full_grid">
+
+        <!--* SPILL KOLONNE (venstre/midt) -->
         <div class="gameplay_cont">
-            <p>hei</p>
+
+            <div class="header">
+                <div class="left_header">
+                    <button id="leave_btn" class="icon"><img src="" alt="" /></button>
+                    <button id="forfeit_btn" class="icon"><img src="" alt="" /></button>
+                    <b><span id="game_id_span">1N63N2</span></b>
+                    <div class="import_export_cont br_20">
+                        <button class="import">IMPORTER SPILL</button>
+                        <button class="export">EKSPORTER SPILL</button>
+                    </div>
+                </div>
+
+                <div class="right_header">
+                    <button id="rules_btn"><img src="" alt="" /></button>
+                </div>
+            </div>
+
+            <div>
+                <p>foo</p>
+            </div>
+
+            <div class="personal_cont">
+                <div class="start_game">
+                    <button class="br_20">START SPILL</button>
+                </div>
+            </div>
+
         </div>
 
+
+
+
+
+        <!--* SPILLER KOLONNE (høyre) -->
         <div class="players_cont">
             <p class="top_info_txt you_are mt_30">Du er: NAVN</p>
             <p class="top_info_txt host">Host: NAVN</p>
@@ -21,12 +54,12 @@
             <button class="become_player br_20 mt_30">BLI SPILLER</button>
 
             <div class="add_bot mt_30">
-                <button>+R</button> <!--TODO legg inn +bot ikon -->
+                <button class="icon">+R</button> <!--TODO legg inn +bot ikon -->
             </div>
 
             <div id="playerboxes" class="playerbox_cont mt_30">
                 <div class="playerbox br_20 is_me">
-                    <button>...</button>
+                    <button class="icon">...</button>
                     <div class="shown_cards">
 
                     </div>

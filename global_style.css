@@ -26,10 +26,14 @@ p, h1, h2, h3, h4, h5, h6 {
 
 button {
     width: fit-content;
+    background-color: #0000;
     border: none;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+button.icon {
+    padding: 0px;
 }
 button:active {
     filter: brightness(75%);
